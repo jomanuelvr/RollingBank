@@ -26,3 +26,9 @@ main {
 .nav-item {
   margin-right: 25px;
 }
+
+.tituloFooter {
+  font-family: "Black Han Sans";
+  color: #ffff;
+  font-size: 2.2rem;
+}
