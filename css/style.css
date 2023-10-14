@@ -1,0 +1,34 @@
+/* Estilos Generales */
+
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap");
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+}
+
+/* Estilos Generales */
+
+/* Estilos Dylan */
+.tituloNavbar {
+  font-family: "Black Han Sans";
+}
+
+.logoNavbar {
+  font-size: 2.2rem;
+}
+
+.nav-item {
+  margin-right: 25px;
+}
+
+.tituloFooter {
+  font-family: "Black Han Sans";
+  color: #ffff;
+  font-size: 2.2rem;
+}
