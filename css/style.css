@@ -28,5 +28,15 @@ main {
 }
 
 /* Estilos Emir - para el  Index */
+.imagenes-carrusel {
+  height: 450px;
+  object-fit: cover;
+}
 
+
+@media screen and (min-width: 992px) {
+  .imagenes-carrusel {
+    height: 550px;
+  }
+}
 

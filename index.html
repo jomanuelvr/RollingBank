@@ -24,7 +24,40 @@
   </head>
   <body>
     <main>
-      
+      <section>
+        <!-- Contenedor del carrusel -->
+        <article id="carouselRollingBank" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="/img/banner/bitcoin.jpg" class="d-block w-100 imagenes-carrusel" alt="Imagen que muestra bitcoins" />
+            </div>
+            <div class="carousel-item">
+              <img src="./img/banner/cajero.jpg" class="d-block w-100 imagenes-carrusel" alt="Imagen que muestra un cajero" />
+            </div>
+            <div class="carousel-item">
+              <img src="./img/banner/dolar.jpg" class="d-block w-100 imagenes-carrusel" alt="Imagen que muestra dolares apoyados en un macbook" />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselRollingBank"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselRollingBank"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </article>
+      </section>
     </main>
 
     <!-- Script de Bootstrap -->
