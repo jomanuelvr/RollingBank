@@ -31,6 +31,12 @@ main {
   margin-right: 25px;
 }
 
+.tituloFooter {
+  font-family: "Black Han Sans";
+  color: #ffff;
+  font-size: 2.2rem;
+}
+
 /* Estilos Emir - para el  Index */
 /* hover enlaces */
 .enlaces-efecto {
@@ -56,4 +62,4 @@ main {
   .tamaño-cards {
     height: 140px;
   }
-}
+
