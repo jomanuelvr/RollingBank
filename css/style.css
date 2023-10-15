@@ -32,6 +32,13 @@ main {
 }
 
 /* Estilos Emir - para el  Index */
+/* hover enlaces */
+.enlaces-efecto {
+  transition: 0.3s;
+}
+.enlaces-efecto:hover {
+  opacity: 0.8;
+}
 /* carrusel responsive*/
 .imagenes-carrusel {
   height: 450px;
