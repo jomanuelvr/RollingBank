@@ -1,6 +1,9 @@
-/* Estilos Generales */
-
+/* Estilos Generales ---------------------------------*/
+/* fuentes */
 @import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap");
+
+/* Icon bootstrap */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
 
 body {
   min-height: 100vh;
@@ -12,7 +15,7 @@ main {
   flex-grow: 1;
 }
 
-/* Estilos Generales */
+/* Estilos Generales -----------------------------*/
 
 /* Estilos Dylan */
 .tituloNavbar {
@@ -25,4 +28,37 @@ main {
 
 .nav-item {
   margin-right: 25px;
+}
+
+.tituloFooter {
+  font-family: "Black Han Sans";
+  color: #ffff;
+  font-size: 2.2rem;
+}
+
+/* Estilos Emir - para el  Index */
+/* hover enlaces */
+.enlaces-efecto {
+  transition: 0.3s;
+}
+.enlaces-efecto:hover {
+  opacity: 0.8;
+}
+/* carrusel responsive*/
+.imagenes-carrusel {
+  height: 450px;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 992px) {
+  .imagenes-carrusel {
+    height: 450px;
+  }
+}
+
+/* cards responsive */
+@media screen and (max-width: 767px) {
+  .tamaño-cards {
+    height: 140px;
+  }
 }
