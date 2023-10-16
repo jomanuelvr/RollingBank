@@ -85,3 +85,10 @@ main {
     height: 140px;
   }
 }
+
+/* cards responsive */
+@media screen and (max-width: 767px) {
+  .tamanio-cards-precios {
+    margin-bottom: 50px;
+  }
+}
