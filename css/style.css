@@ -36,6 +36,13 @@ main {
   font-size: 2.2rem;
 }
 
+/* Pagina de extravios */
+.extravioPrincipal {
+  background-color: rgba(0, 145, 255, 0.215);
+  padding: 25px;
+  justify-content: center;
+}
+
 /* Estilos Emir - para el  Index */
 /* hover enlaces */
 .enlaces-efecto {
