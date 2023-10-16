@@ -128,16 +128,17 @@
       </section>
 
       <!-- Seccion de Acordeones -->
-      <section class="container">
-        <h2 class="tituloPrincipal text-primary text-center text-md-start mb-3">
+      <section class="container-fluid extravioAcordeones mt-5 py-4 px-md-5">
+        <h2 class="tituloPrincipal text-light text-center mb-3 p-2">
           Tips de Seguridad
         </h2>
+
         <!-- Acordión 1 -->
-        <div class="accordion mb-4 mt-4 shadow rounded" id="accordionExample">
+        <div class="accordion mb-4 mt-4 shadow" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button
-                class="accordion-button ps-2 ps-md-4"
+                class="accordion-button collapsed ps-2 ps-md-4"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseOne"
@@ -159,7 +160,7 @@
                   fundamental. Nuestra plataforma está diseñada para garantizar
                   la seguridad de tus fondos en todo momento.
                 </p>
-                <p class="text-success-emphasis">
+                <p class="fw-bold">
                   Puedes estar seguro de que tu dinero está protegido y
                   accesible cuando más lo necesitas.
                 </p>
@@ -169,7 +170,10 @@
         </div>
 
         <!-- Acordión 2 -->
-        <div class="accordion mb-4 shadow" id="accordionExample">
+        <div
+          class="accordion my-4 my-md-5 shadow rounded"
+          id="accordionExample"
+        >
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button
@@ -207,18 +211,19 @@
         </div>
 
         <!-- Acordión 3 -->
-        <div class="accordion mb-4" id="accordionExample">
+        <div class="accordion my-4 my-md-5 rounded" id="accordionExample">
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button
-                class="accordion-button collapsed"
+                class="accordion-button collapsed shadow"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseThree"
                 aria-expanded="false"
                 aria-controls="collapseThree"
               >
-                Accordion Item #3
+                <i class="bi bi-headset fs-2 me-3 text-info"></i>
+                <strong> Atención al cliente </strong>
               </button>
             </h2>
             <div
@@ -227,15 +232,14 @@
               data-bs-parent="#accordionExample"
             >
               <div class="accordion-body">
-                <strong>This is the second item's accordion body.</strong> It is
-                hidden by default, until the collapse plugin adds the
-                appropriate classes that we use to style each element. These
-                classes control the overall appearance, as well as the showing
-                and hiding via CSS transitions. You can modify any of this with
-                custom CSS or overriding our default variables. It's also worth
-                noting that just about any HTML can go within the
-                <code>.accordion-body</code>, though the transition does limit
-                overflow.
+                <p>
+                  En situaciones inesperadas, nuestra atención al cliente está
+                  lista para ayudarte en cualquier momento. Ya sea para reportar
+                  un extravío, resolver dudas o recibir asistencia
+                  personalizada, nuestro equipo está disponible 24/7 para
+                  brindarte el apoyo que necesitas.
+                </p>
+                <strong>Tu satisfacción es nuestra prioridad.</strong>
               </div>
             </div>
           </div>
