@@ -32,3 +32,10 @@ main {
   color: #ffff;
   font-size: 2.2rem;
 }
+
+/* Estilos Agos */
+/* Error404 */
+.fondoBotn {
+  padding: 20px;
+  background-color: #8ac0d8ff;
+}
