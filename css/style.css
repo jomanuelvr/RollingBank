@@ -59,6 +59,7 @@ main {
 
 /* Pagina de extravios */
 
+
 /* Estilos Emir - para el  Index */
 /* hover enlaces */
 .enlaces-efecto {
@@ -91,4 +92,10 @@ main {
   .tamanio-cards-precios {
     margin-bottom: 50px;
   }
+  
+/* Estilos Agos */
+/* Error404 */
+.fondoBotn {
+  padding: 20px;
+  background-color: #8ac0d8ff;
 }
