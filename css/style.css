@@ -1,6 +1,11 @@
 /* Estilos Generales */
 
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap");
+
+/* Icon bootstrap */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css");
+
 
 body {
   min-height: 100vh;
@@ -26,3 +31,72 @@ main {
 .nav-item {
   margin-right: 25px;
 }
+
+.tituloFooter {
+  font-family: "Black Han Sans";
+  color: #ffff;
+  font-size: 2.2rem;
+}
+
+/* Pagina de extravios */
+
+.tituloPrincipal {
+  font-family: "Roboto";
+  font-weight: 900;
+}
+
+.parrafoPrincipal {
+  text-align: justify;
+}
+
+.imagenPrincipal:hover {
+  filter: brightness(60%);
+}
+
+.extravioAcordeones {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='920' preserveAspectRatio='none' viewBox='0 0 1440 920'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1037%26quot%3b)' fill='none'%3e%3crect width='1440' height='920' x='0' y='0' fill='rgba(50%2c 104%2c 160%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c546.62C108.356%2c555.596%2c220.823%2c544.583%2c314.367%2c489.165C409.587%2c432.754%2c488.484%2c343.728%2c521.032%2c237.947C552.031%2c137.199%2c522.833%2c28.978%2c486.399%2c-69.934C455.057%2c-155.023%2c387.04%2c-215.397%2c328.527%2c-284.67C269.163%2c-354.952%2c220.767%2c-433.88%2c140.706%2c-479.2C46.528%2c-532.511%2c-60.5%2c-589.68%2c-165.74%2c-564.458C-271.717%2c-539.059%2c-340.852%2c-438.673%2c-402.721%2c-348.96C-459.635%2c-266.432%2c-499.064%2c-172.677%2c-504.94%2c-72.599C-510.525%2c22.535%2c-472.81%2c111.178%2c-434.868%2c198.597C-396.239%2c287.6%2c-358.339%2c379.09%2c-282.587%2c439.714C-202.331%2c503.943%2c-102.442%2c538.134%2c0%2c546.62' fill='%232a5786'%3e%3c/path%3e%3cpath d='M1440 1554.187C1569.798 1560.713 1715.1100000000001 1587.924 1819.48 1510.483 1923.192 1433.53 1922.667 1282.137 1969.077 1161.621 2012.201 1049.638 2113.018 943.67 2082.444 827.631 2051.781 711.255 1894.136 685.613 1818.905 591.677 1738.962 491.856 1744.504 326.611 1632.198 265.43499999999995 1518.805 203.66700000000003 1375.999 243.86400000000003 1253.098 283.46900000000005 1132.387 322.36800000000005 1029.9270000000001 397.13800000000003 941.47 488.021 848.735 583.298 735.343 685.357 732.554 818.285 729.783 950.35 865.02 1037.667 927.495 1154.0529999999999 984.7570000000001 1260.728 988.846 1399.009 1084.277 1473.516 1182.094 1549.886 1316.058 1547.955 1440 1554.187' fill='%233a79ba'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1037'%3e%3crect width='1440' height='920' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+}
+
+/* Pagina de extravios */
+
+/* Estilos Emir - para el  Index */
+/* hover enlaces */
+.enlaces-efecto {
+  transition: 0.3s;
+}
+.enlaces-efecto:hover {
+  opacity: 0.8;
+}
+/* carrusel responsive*/
+.imagenes-carrusel {
+  height: 450px;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 992px) {
+  .imagenes-carrusel {
+    height: 450px;
+  }
+}
+
+/* cards responsive */
+@media screen and (max-width: 767px) {
+  .tamaño-cards {
+    height: 140px;
+  }
+}
+
+/* cards responsive */
+@media screen and (max-width: 767px) {
+  .tamanio-cards-precios {
+    margin-bottom: 50px;
+  }
+}
+
+/* Estilos Agos */
+/* Error404 */
+.fondoBotn {
+  padding: 20px;
+  background-color: #8ac0d8ff;
+}
+
